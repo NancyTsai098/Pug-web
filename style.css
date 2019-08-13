@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+}
+
+.banner{
+    background-image: url(imgs/Banner.jpg);
+    width: 100vw;
+    height: 800px;
+    background-size: cover;
+}
+.logo {
+    width: 250px;
+}
+
+.link {
+    /* flr */
+    float: right;
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: 800;
+}
+
+nav{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-size: 18px;
+}
+.link a{
+    border: solid 0.75px #fff;
+    padding: 5px 30px;
+}
+a:hover{
+    background-color:#FBE251;
+    color:  #4A593D;
+    border: 0.75px solid #4A593D;
+    border-radius: 8px;
+    transition: 0.6s;
+}
+
+
+

@@ -3,11 +3,14 @@
     margin: 0;
     font-family: 微軟正黑體;
 }
+body, html{
+    background-color: #faf7f0;
+}
 
 .banner{
     background-image: url(imgs/Banner.jpg);
     width: 100vw;
-    height: 800px;
+    height: calc(100vw/2.5);
     background-size: cover;
 }
 .logo {
@@ -44,5 +47,29 @@ a:hover{
     transition: 0.6s;
 }
 
+.content{
+    width: 700px;
+    text-align: center;
+    margin: 60px auto;
+    position: relative;
+    color: ##58451a;
+}
+.title{
+    font-size: 15px;
+    margin: 10px;
+}
+.title::before{
+content:"＼";
+padding-right: 20px; 
+}
 
+.title::after{
+    content:"／";
+    padding-left:20px;
+}
+.content p{
+    width: 500px;
+    margin: 20px auto;
+    line-height: 35px;
+}
 
